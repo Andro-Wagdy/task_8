@@ -6,10 +6,10 @@ import 'package:task_8/Cubits/CounterCubit/counter_cubit.dart';
 import 'package:task_8/Cubits/FastFilterBarCubit/fast_filter_bar_cubit.dart';
 import 'package:task_8/Cubits/RadioCubit/radio_cubit.dart';
 import 'package:task_8/Cubits/TextFieldCubit/text_field_cubit.dart';
-import 'package:task_8/Screens/StateManagment/CounterScreen_without_cubit.dart';
 import 'package:task_8/Screens/StateManagment/CounterScreen_with_cubid.dart';
 import 'package:task_8/Screens/StateManagment/Task_8_with_cubit.dart';
 import 'package:task_8/Screens/StateManagment/task_setstate.dart';
+import 'package:task_8/Screens/StateManagment/CounterScreen_setstate.dart';
 
 void main() {
   runApp(const MyApp());

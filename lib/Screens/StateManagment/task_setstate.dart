@@ -9,6 +9,12 @@ class task_setstate extends StatefulWidget {
   int index = 0;
   bool _obscureText = true;
   IconData _toggleIcon = Icons.visibility_off;
+  List<String> filterbar = [
+    "Being Checked",
+    "Completed",
+    "cancled",
+    "in progress"
+  ];
 
   @override
   State<task_setstate> createState() => _Task_8_setstateState();
@@ -118,14 +124,12 @@ class _Task_8_setstateState extends State<task_setstate> {
                         setState(() {
                           widget._obscureText = !widget._obscureText;
                           widget._toggleIcon = widget._obscureText
-                              ? Icons.visibility
-                              : Icons.visibility_off;
+                              ? Icons.visibility_off
+                              : Icons.visibility;
                         });
                       },
                     ),
-                  )
-                  )
-                  ),
+                  ))),
         ],
       ),
     ));
